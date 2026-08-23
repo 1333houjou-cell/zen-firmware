@@ -4,7 +4,14 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        btcrl {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <46 47 48>;
+        };
+    };
 
     macros {
         toWin: toWin {
