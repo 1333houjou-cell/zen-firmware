@@ -61,10 +61,10 @@
 
         layer_3 {
             bindings = <
-&trans  &toWin  &toiPad  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &studio_unlock
-&trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &none   &mo 3   &trans
+&trans          &toWin  &toiPad  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &studio_unlock
+&bt BT_CLR_ALL  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans  &none   &mo 3   &trans
             >;
         };
     };
